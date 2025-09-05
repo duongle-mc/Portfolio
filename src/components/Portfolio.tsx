@@ -8,7 +8,7 @@ import mainAvatar from "../assets/main.jpg";
 import slms from "../assets/slms.png";
 import vm from "../assets/vaccine.png";
 import foodshop from "../assets/cookieshia.png";
-import cvFile from "../assets/net_cv.pdf";
+import cvFile from "../../public/net_cv.pdf";
 import AutoTypeText from "../services/AutoTypeText";
 import { useNavigate } from "react-router-dom";
 
