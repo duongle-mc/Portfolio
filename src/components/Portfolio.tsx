@@ -1,4 +1,3 @@
-import React from "react";
 import { Github, Linkedin, Mail, ExternalLink } from "lucide-react";
 import { BookOutlined, ExportOutlined, MailOutlined } from "@ant-design/icons";
 import { FaJava, FaReact } from "react-icons/fa";
