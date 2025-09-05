@@ -86,7 +86,11 @@ export default function Portfolio({ sections, scrollToSection }: PortfolioProps)
     return (
         <div className="portfolio">
             {/* Hero Section */}
-            <section id="home" ref={(el) => (sections.current.home = el)} className="hero">
+            <section
+                id="home"
+                ref={(el) => { sections.current.home = el; }}
+                className="hero"
+            >
                 <div className="hero-content">
                     <div className="avatar-container">
                         <div className="avatar">
@@ -115,7 +119,11 @@ export default function Portfolio({ sections, scrollToSection }: PortfolioProps)
             </section>
 
             {/* About */}
-            <section id="about" ref={(el) => (sections.current.about = el)} className="about section">
+            <section
+                id="about"
+                ref={(el) => { sections.current.about = el; }}
+                className="about section"
+            >
                 <h2 className="section-title">About Me</h2>
                 <div className="about-grid">
                     <div className="about-content">
@@ -154,7 +162,11 @@ export default function Portfolio({ sections, scrollToSection }: PortfolioProps)
             </section>
 
             {/* Skills */}
-            <section id="skills" ref={(el) => (sections.current.skills = el)} className="skills section">
+            <section
+                id="skills"
+                ref={(el) => { sections.current.skills = el; }}
+                className="skills section"
+            >
                 <h2 className="section-title">Tech Stack</h2>
                 <div className="skill-grid">
                     {skills.map((s) => {
@@ -176,7 +188,11 @@ export default function Portfolio({ sections, scrollToSection }: PortfolioProps)
             </section>
 
             {/* Projects */}
-            <section id="projects" ref={(el) => (sections.current.projects = el)} className="projects section">
+            <section
+                id="projects"
+                ref={(el) => { sections.current.projects = el; }}
+                className="projects section"
+            >
                 <h2 className="section-title">Projects</h2>
                 <div className="project-grid">
                     {projects.map((p) => (
@@ -225,7 +241,11 @@ export default function Portfolio({ sections, scrollToSection }: PortfolioProps)
             </section>
 
             {/* Contact */}
-            <section id="contact" ref={(el) => (sections.current.contact = el)} className="contact section">
+            <section
+                id="contact"
+                ref={(el) => { sections.current.contact = el; }}
+                className="contact section"
+            >
                 <h2 className="section-title">Contact Me</h2>
                 <p className="contact-subtitle">Feel free to connect if you want to collaborate or just have a chat!</p>
                 <div className="contact-grid">
@@ -253,6 +273,6 @@ export default function Portfolio({ sections, scrollToSection }: PortfolioProps)
 
                 </div>
             </section>
-        </div>
+        </div >
     );
 }

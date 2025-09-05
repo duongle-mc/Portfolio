@@ -4,8 +4,6 @@ import slms from "../assets/slms.png";
 import vm from "../assets/vaccine.png";
 import foodshop from "../assets/cookieshia.png";
 import "./CSS/detail.css";
-import { yellow } from "@mui/material/colors";
-
 interface Project {
     id: number;
     projectId: string;
