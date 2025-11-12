@@ -98,7 +98,6 @@ export default function ProjectDetail() {
 
     return (
         <div className="project-detail-container">
-            {/* Breadcrumb */}
             <div className="breadcrumb">
                 <Link to="/" className="back-link">
                     <ArrowLeft size={18} /> Back
@@ -107,7 +106,6 @@ export default function ProjectDetail() {
                 <span>{project.projectName}</span>
             </div>
 
-            {/* Header */}
             <div className="detail-header">
                 <div className="detail-info">
                     <h1>{project.projectName}</h1>
@@ -140,7 +138,6 @@ export default function ProjectDetail() {
                 </div>
             </div>
 
-            {/* Technologies */}
             <div className="tech-section">
                 <h2>Technologies Used</h2>
                 <div className="tech-tags">
