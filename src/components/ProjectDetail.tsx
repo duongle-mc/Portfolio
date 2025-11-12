@@ -40,8 +40,8 @@ const projects: Project[] = [
         shortDescription: "AI-powered system for monitoring social sentiment across platforms.",
         description: "An application for social listening and monitoring that collects data from social media platforms and leverages AI to evaluate sentiment. Built with a microservices architecture using .NET Core, React, Kafka, and Redis.",
         tech: [".NET Core", "React", "TypeScript", "SQL Server", "Kafka", "Redis"],
-        github: "#",
-        demo: "#",
+        github: "https://gitlab.com/sep490_g45",
+        demo: "https://social-listening-system-v2.vercel.app",
         image: slms,
     },
     {
@@ -123,17 +123,13 @@ export default function ProjectDetail() {
                         </div>
                     </div>
                     <div className="links">
-                        <span className="tooltip-wrapper">
-                            <a href={project.demo}
-                                className="btn primary disabled"
-                                title="Live demo not available"
-                                target="_blank"
-                                rel="noreferrer">
-                                <ExternalLink size={18} /> Live Demo
-                            </a>
-                            <span className="tooltip-text">Live demo not available</span>
-                        </span>
-
+                        <a href={project.demo}
+                            className="btn primary"
+                            title="Live demo"
+                            target="_blank"
+                            rel="noreferrer">
+                            <ExternalLink size={18} /> Live Demo
+                        </a>
                         <a href={project.github} className="btn secondary" target="_blank" rel="noreferrer">
                             <Github size={18} /> GitHub
                         </a>

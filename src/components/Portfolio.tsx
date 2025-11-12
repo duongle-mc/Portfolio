@@ -205,7 +205,7 @@ export default function Portfolio({ sections, scrollToSection }: PortfolioProps)
                                     <a href={p.github} className="project-link" aria-label="GitHub">
                                         <Github size={18} />
                                     </a>
-                                    <span className="tooltip-wrapper">
+                                    {/* <span className="tooltip-wrapper">
                                         <a
                                             href={p.demo || "#"}
                                             title="Live demo not available"
@@ -218,8 +218,10 @@ export default function Portfolio({ sections, scrollToSection }: PortfolioProps)
                                             <ExternalLink size={18} />
                                         </a>
                                         <span className="tooltip-text">Not available</span>
-                                    </span>
-
+                                    </span> */}
+                                    <a href={p.demo} className="project-link" aria-label="Live Demo">
+                                        <ExternalLink size={18} />
+                                    </a>
                                 </div>
                             </div>
                             <p>{p.shortDescription}</p>
