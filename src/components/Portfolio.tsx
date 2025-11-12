@@ -44,8 +44,8 @@ export default function Portfolio({ sections, scrollToSection }: PortfolioProps)
             shortDescription: "AI-powered system for monitoring social sentiment across platforms.",
             description: "Full description here...",
             tech: [".NET Core", "React", "TypeScript", "SQL Server", "Kafka", "Redis"],
-            github: "#",
-            demo: "#",
+            github: "https://gitlab.com/sep490_g45",
+            demo: "https://social-listening-system-v2.vercel.app",
             image: slms,
         },
         {
